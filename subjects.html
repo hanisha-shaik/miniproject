@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learn Concept Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white; /* Light red background */
+    }
+
+    .navbar {
+      background-color: #011e4d;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .search-box input[type="text"] {
+      padding: 10px;
+      width: 60%;
+      max-width: 500px;
+      border: 1px solid #6f6367;
+      border-radius: 5px;
+    }
+
+    .search-box button {
+      padding: 10px 20px;
+      background-color: #104d8f;
+      color: white;
+      border: none;
+      margin-left: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background-color: rgba(229, 223, 223, 0.707);
+      padding: 20px;
+      width: 220px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card a {
+      color: #10457e;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div><a href="#"><strong>Learn Concept Hub</strong></a></div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Admin Panel</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Welcome to Learn Concept Hub</h2>
+    <div class="search-box">
+      <input type="text" placeholder="Search study materials...">
+      <button>Search</button>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Computer Organisation and Architecture</h3>
+        <p>Notes on COA</p>
+        <a href="">Download Notes</a>
+      </div>
+      <div class="card">
+        <h3>Data Analysis and Algorithms</h3>
+        <p>Notes on DAA</p>
+        <a href="#">Download Notes</a>
+      </div>
+      <div class="card">
+        <h3>DBMS Notes</h3>
+        <p>Complete DBMS syllabus notes.</p>
+        <a href="#">Download Notes</a>
+      </div>
+      <div class="card">
+        <h3>Digital Electronics</h3>
+        <p>Important Questions and Previous Year Question Papers</p>
+        <a href="#">Download Papers</a>
+      </div>
+      <div class="card">
+        <h3>Java</h3>
+        <p>Java Notes</p>
+        <a href="#">Download Notes</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
